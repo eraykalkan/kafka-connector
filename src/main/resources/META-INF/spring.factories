@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.eraykalkan.kafkaconnector.config.ConstantsConfig, \
+  com.eraykalkan.kafkaconnector.config.KafkaConsumerConfig, \
+  com.eraykalkan.kafkaconnector.config.KafkaProducerConfig, \
+  com.eraykalkan.kafkaconnector.config.KafkaTopicConfig, \
+  com.eraykalkan.kafkaconnector.config.KafkaObjectMapper, \
+  com.eraykalkan.kafkaconnector.manager.KafkaTopicManager
